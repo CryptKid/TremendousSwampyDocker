@@ -6,4 +6,4 @@ RUN mkdir /repos
 ADD ts/ /TREMENDOUS/
 RUN useradd -ms /bin/bash swampy
 USER swampy
-ENTRYPOINT ["python3", "/TREMENDOUS/tremendousswampy.py"]
+ENTRYPOINT ["python2", "/TREMENDOUS/tremendousswampy.py"]
